@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.itheima.laosiji">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.AboutActivity"></activity>
+        <activity android:name=".Activity.AddAddressActivity"></activity>
+        <activity android:name=".Activity.AddressActivity"></activity>
+        <activity android:name=".Activity.AddressManageActivity"></activity>
+        <activity android:name=".Activity.CommentActivity"></activity>
+        <activity android:name=".Activity.FankuiActivity"></activity>
+        <activity android:name=".Activity.FaPiaoActivity"></activity>
+        <activity android:name=".Activity.FlashSaleActivity"></activity>
+        <activity android:name=".Activity.GoodsActivity"></activity>
+        <activity android:name=".Activity.Help_peisong_activity"></activity>
+        <activity android:name=".Activity.Help_shouhou_activity"></activity>
+        <activity android:name=".Activity.Help_zhinan_activity"></activity>
+        <activity android:name=".Activity.HelpActivity"></activity>
+        <activity android:name=".Activity.HistoryAcitivity"></activity>
+        <activity android:name=".Activity.HomeActivity"></activity>
+        <activity android:name=".Activity.HotProduceActivity"></activity>
+        <activity android:name=".Activity.MyLoginActivity"></activity>
+        <activity android:name=".Activity.MyRegister"></activity>
+        <activity android:name=".Activity.NewActivity"></activity>
+        <activity android:name=".Activity.PayWayActivity"></activity>
+        <activity android:name=".Activity.ProductDetailsActivity"></activity>
+        <activity android:name=".Activity.SalesPromotionActivity"></activity>
+        <activity android:name=".Activity.SerachActivity"></activity>
+        <activity android:name=".Activity.SearchRseultActivity"></activity>
+        <activity android:name=".Activity.ShopcarActivity"></activity>
+        <activity android:name=".Activity.SuccessActivity"></activity>
+        <activity android:name=".Activity.SureOrderformActivity"></activity>
+        <activity android:name=".Activity.TransportWayActivity"></activity>
+        <activity android:name=".Activity.Myorder"></activity>
+        <activity android:name=".Activity.ActivityZhanghuCenter"></activity>
+        <activity android:name=".Activity.MyCollectionActivity"></activity>
+        <activity android:name=".Activity.MyPriviligeAcitivity"></activity>
+    </application>
+
+</manifest>

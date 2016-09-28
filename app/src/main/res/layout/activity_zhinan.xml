@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_marginLeft="120sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="新手指南" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#000" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#000" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="1.在这里购物可以保证商品的质量吗?\n答:我们会保证每一位买家所购买商品的质量"/>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#000" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="2.购买商品如何退换\n答:收到商品后,七天之内出现质量问题,无理由退换"/>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#000" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="3.如何使用\n答:我们提供了详细的说明书"/>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#000" />
+
+
+
+</LinearLayout>

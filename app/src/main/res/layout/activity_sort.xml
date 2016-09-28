@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#339c9c9c"
+        android:gravity="center"
+        android:text="分类"
+        android:textSize="25dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/lv_sort_item"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head"
+        android:background="#229c9c9c"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@android:color/white"/>
+
+    <FrameLayout
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_sort_item2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

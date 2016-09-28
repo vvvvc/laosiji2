@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="175dp"
+        android:layout_height="125dp"
+        android:src="@mipmap/home_title_pic1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="125dp">
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/tv_name"
+            android:layout_marginLeft="8dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:text="女士外套"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="8dp"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:text="老婆跟别人跑了,清仓大甩卖la,跳楼价,腰斩价,"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="8dp"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:text="(每个ID限购十件)"
+            android:layout_height="wrap_content" />
+      <LinearLayout
+          android:layout_marginTop="25dp"
+          android:layout_marginLeft="8dp"
+          android:layout_width="180dp"
+          android:layout_height="20dp"
+          android:orientation="horizontal"
+          android:background="@mipmap/regist_bg"
+          >
+          <TextView
+              android:layout_marginLeft="5dp"
+              android:textColor="#fff"
+              android:singleLine="true"
+              android:textSize="16sp"
+              android:layout_width="wrap_content"
+              android:text="$"
+              android:layout_height="wrap_content" />
+
+
+          <TextView
+              android:id="@+id/tv_price"
+              android:layout_marginLeft="5dp"
+              android:textColor="#fff"
+              android:singleLine="true"
+              android:layout_width="wrap_content"
+              android:text="300"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:layout_marginLeft="25dp"
+              android:textColor="#000"
+              android:singleLine="true"
+              android:layout_width="180dp"
+              android:text="马上抢 "
+              android:layout_height="wrap_content" />
+      </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:gravity="center_vertical"
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:layout_height="58dp">
+
+       <ImageView
+           android:id="@+id/voice_search"
+           android:layout_marginLeft="10dp"
+           android:layout_width="wrap_content"
+           android:src="@mipmap/head_voice"
+           android:layout_height="wrap_content"/>
+       <EditText
+           android:layout_margin="10dp"
+           android:id="@+id/serach_et"
+           android:clickable="true"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_marginBottom="8dp"
+           android:layout_marginTop="8dp"
+           android:layout_weight="1"
+           android:background="@drawable/home_title_edittext_bg"
+           android:drawableLeft="@mipmap/head_search"
+           android:hint="输入你要搜索的宝贝"
+           android:textSize="12sp"/>
+
+       <TextView
+           android:id="@+id/serach_confirm"
+           android:layout_width="wrap_content"
+           android:text="搜索"
+           android:textSize="17sp"
+           android:layout_marginRight="10dp"
+           android:layout_height="wrap_content"/>
+       <TextView
+           android:id="@+id/serach_cancel"
+           android:layout_width="wrap_content"
+           android:text="取消"
+           android:textSize="17sp"
+           android:layout_marginRight="10dp"
+           android:layout_height="wrap_content"/>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="25dp"
+            android:layout_width="20dp"
+            android:src="@drawable/fire"
+            android:layout_height="30dp"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:text="热门搜索"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <GridView
+        android:horizontalSpacing="8dp"
+        android:verticalSpacing="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:numColumns="4"
+        android:id="@+id/serach_gridview"
+        android:layout_height="100dp">
+    </GridView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#20000000"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="25dp"
+            android:layout_width="20dp"
+            android:src="@drawable/searchhistory"
+            android:layout_height="30dp"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:text="搜索历史"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <GridView
+        android:horizontalSpacing="8dp"
+        android:verticalSpacing="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:numColumns="4"
+        android:id="@+id/serachhistiry_gridview"
+        android:layout_height="100dp">
+    </GridView>
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+   android:gravity="center"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/history_clean"
+        android:layout_width="wrap_content"
+        android:drawableLeft="@mipmap/clean"
+        android:textSize="20sp"
+        android:text="清除历史记录"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+</LinearLayout>

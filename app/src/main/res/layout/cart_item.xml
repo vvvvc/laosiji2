@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_marginTop="10dp"
+    android:background="@mipmap/address_noaddr"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/iv_check"
+        android:src="@mipmap/ischeck"
+        android:layout_centerVertical="true"
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/iv_product"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/iv_check"
+
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/iv_product"
+        android:text="日本奶粉"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/a"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/iv_product"
+        android:text="¥"
+        android:textColor="@color/mypink"/>
+
+    <TextView
+        android:id="@+id/tv_prize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/a"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/a"
+        android:text="110"
+        android:textColor="#000"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:paddingTop="0dp"
+        >
+
+        <Button
+            android:id="@+id/bt_reduce"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/shopping_cart_product_num_reduce"
+            android:focusable="false"
+            />
+
+        <TextView
+
+            android:id="@+id/tv_productnum"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/bt_reduce"
+            android:layout_toRightOf="@+id/bt_reduce"
+            android:background="@drawable/shopping_cart_product_num_edit"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#000"/>
+
+        <Button
+            android:id="@+id/bt_add"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/tv_productnum"
+            android:background="@mipmap/shopping_cart_product_num_add"
+            android:focusable="false"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

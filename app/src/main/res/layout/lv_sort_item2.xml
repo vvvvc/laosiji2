@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:descendantFocusability="blocksDescendants"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sort_item2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:text="hahah"
+        android:textColor="#000"
+        android:textSize="16sp"/>
+
+    <com.itheima.laosiji.View.Grid
+        android:id="@+id/gv_item2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="6dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="6dp">
+
+    </com.itheima.laosiji.View.Grid>
+</LinearLayout>

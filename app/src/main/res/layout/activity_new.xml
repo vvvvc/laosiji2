@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="45dp">
+     <ImageView
+         android:id="@+id/iv_fan"
+         android:layout_marginTop="10dp"
+         android:layout_width="25dp"
+         android:layout_height="25dp"
+         android:src="@mipmap/back_btn"/>
+      <TextView
+          android:id="@+id/tv_fan"
+          android:layout_marginTop="11dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="15sp"
+          android:textColor="#000"
+          android:text="返回"/>
+      <TextView
+          android:layout_marginTop="13dp"
+          android:layout_marginLeft="85dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="22sp"
+          android:textColor="#000"
+          android:text="新品上架"/>
+      <TextView
+          android:layout_marginTop="9dp"
+          android:layout_marginLeft="90dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="13sp"
+          android:textColor="#000"
+          android:text="销量排序"/>
+
+      <ImageView
+          android:id="@+id/tv_order"
+          android:layout_marginLeft="15dp"
+          android:layout_marginTop="16dp"
+          android:layout_width="15dp"
+          android:layout_height="15dp"
+          android:src="@mipmap/user_photo"/>
+
+  </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

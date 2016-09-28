@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.itheima.laosiji.View.WelcomeViewPager
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/welcome_viewpager">
+    </com.itheima.laosiji.View.WelcomeViewPager>
+
+</RelativeLayout>

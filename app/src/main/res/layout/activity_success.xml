@@ -1,0 +1,155 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F04895"
+        android:padding="10dp">
+
+        <TextView
+
+
+
+            android:id="@+id/tv_shopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结算中心"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="提交成功"
+            android:textColor="#fff"
+            android:textSize="18sp"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        style="@style/orderform_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:text="您的订单已经提交成功,我们会尽快发货"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="@color/mygrey"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            style="@style/orderform_content"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单号:"/>
+
+        <TextView
+            
+            android:id="@+id/tv_orderNum"
+            
+            style="@style/orderform_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="9999"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            style="@style/orderform_content"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单总额:"/>
+
+        <TextView
+            android:id="@+id/tv_orderTotal"
+            style="@style/orderform_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="9999"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            style="@style/orderform_content"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支付方式:"/>
+
+        <TextView
+
+            android:id="@+id/order_type"
+
+            style="@style/orderform_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="到付-现金"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="@color/mygrey"/>
+
+    <Button
+        android:id="@+id/bt_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#F04895"
+        android:text="继续购物"
+        android:textColor="#fff"
+        />
+
+    <Button
+
+        android:id="@+id/bt_checkorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#F04895"
+        android:text="检查订单"
+        android:textColor="#fff"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="如有疑问,请拨打12306"
+        />
+
+
+</LinearLayout>

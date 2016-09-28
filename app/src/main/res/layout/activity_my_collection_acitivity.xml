@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_back"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="返回"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的优惠券"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"/>
+    <TextView
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已有优惠券"/>
+    <RelativeLayout
+        android:background="#FF8FB7"
+        android:id="@+id/rl_september"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="九月惊喜50元礼券"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_september"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/noclick" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="#FF8FB7"
+        android:id="@+id/rl_october"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="十月国庆80元礼券"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_october"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/noclick" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="#FF8FB7"
+        android:id="@+id/rl_charistms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="圣诞大放送80元礼券"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_christmas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/noclick" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_sure"
+        android:background="#FF8FB7"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:textSize="20sp"/>
+    <TextView
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="如果有疑问,请拨打客服电话:400-800-88888"/>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+ <!--   <android.support.v4.widget.DrawerLayout
+        android:layout_width=""
+        android:layout_height=""></android.support.v4.widget.DrawerLayout>-->
+
+
+
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/fl_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_alignParentBottom="true"
+            >
+            <ImageView
+                android:id="@+id/catagory_home"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/tab_home_unselect"
+                />
+            <ImageView
+                android:id="@+id/catagory_column"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/tab_category_unselect"/>
+            <ImageView
+                android:id="@+id/catagory_shopcart"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/tab_shopcart_unselect"/>
+
+            <ImageView
+                android:id="@+id/catagory_my"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:src="@mipmap/tab_my_normal"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/catagory_setting"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/tab_setting_unselect"/>
+        </LinearLayout>
+
+</RelativeLayout>
+
+     >
+
+</RelativeLayout>
+
+
+
+
+

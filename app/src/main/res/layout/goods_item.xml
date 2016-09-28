@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/goods_iv_icon"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/goods_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="毛呢外套"
+        android:textColor="#000"
+        android:textSize="13dp"/>
+
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+
+        <TextView
+            android:layout_marginLeft="50dp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/tv_prie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="156644654654"
+            android:textColor="#3f00"
+            android:textSize="12sp"/>
+        <TextView
+
+            android:text="156644654654"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/tv_hot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="12sp"/>
+    </RelativeLayout>
+</LinearLayout>

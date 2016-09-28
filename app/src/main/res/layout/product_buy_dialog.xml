@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffffff"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="450dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+
+                android:id="@+id/iv_smallproduct"
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/ic_launcher"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+
+                    android:id="@+id/tv_name"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="我只是一件衣服"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+
+                    android:id="@+id/tv_prize"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$89.00"
+                    android:textColor="@color/mypink"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/mygrey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="颜色"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            >
+
+            <RelativeLayout
+                style="@style/product_color_choose"
+                >
+
+                <ImageButton
+                    android:id="@+id/bt_red"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#FF0000"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_1"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/skyblue_platform_checked"
+                    android:visibility="invisible"
+
+                    />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                style="@style/product_color_choose"
+                >
+
+                <ImageButton
+                    android:id="@+id/bt_yello"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#FEF955"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_2"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+
+                    android:src="@mipmap/skyblue_platform_checked"
+                    android:visibility="invisible"
+
+                    />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                style="@style/product_color_choose"
+                >
+
+
+                <ImageButton
+
+                    android:id="@+id/bt_blue"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#2C7FFF"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_3"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/skyblue_platform_checked"
+                    android:visibility="invisible"
+
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/product_color_choose"
+
+
+                >
+
+                <ImageButton
+
+
+                    android:id="@+id/bt_green"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#5FFF76"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_4"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/skyblue_platform_checked"
+                    android:visibility="invisible"
+
+                    />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/mygrey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="尺码"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+
+                >
+
+                <TextView
+                    android:id="@+id/tv_sizeL"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#999c9c9c"
+                    android:gravity="center"
+                    android:text="L"
+                    android:textColor="#000"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_5"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/skyblue_platform_checked"
+                    android:visibility="invisible"
+
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+
+                >
+
+                <TextView
+                    android:id="@+id/tv_sizeXL"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#999c9c9c"
+                    android:gravity="center"
+                    android:text="XL"
+                    android:textColor="#000"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_6"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/skyblue_platform_checked"
+                    android:visibility="invisible"
+
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+
+                >
+
+                <TextView
+                    android:id="@+id/tv_sizeXLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#999c9c9c"
+                    android:gravity="center"
+                    android:text="XLL"
+                    android:textColor="#000"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_7"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/skyblue_platform_checked"
+                    android:visibility="invisible"
+
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/mygrey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="数量"
+
+            />
+
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+
+            android:paddingTop="10dp"
+            >
+
+            <Button
+
+                android:id="@+id/bt_reduce"
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@mipmap/shopping_cart_product_num_reduce"
+                />
+
+            <TextView
+
+                android:id="@+id/tv_productnum"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignTop="@+id/bt_reduce"
+                android:layout_toRightOf="@+id/bt_reduce"
+                android:background="@drawable/shopping_cart_product_num_edit"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#000"/>
+
+            <Button
+
+                android:id="@+id/bt_add"
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@+id/tv_productnum"
+                android:background="@mipmap/shopping_cart_product_num_add"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            >
+
+            <Button
+
+                android:id="@+id/bt_makesure"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:background="@color/mypink"
+                android:text="确定"
+                android:textColor="#fff"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

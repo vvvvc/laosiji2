@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center"
+        android:id="@+id/bt_select_brands"
+        android:layout_margin="10dp"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:textColor="@drawable/selector_brands_textcolor_bg"
+        android:background="@drawable/shap_select_brands"
+        android:text="test"
+        android:textSize="12sp"/>
+

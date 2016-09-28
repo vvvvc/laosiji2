@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.itheima.laosiji"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+task nativeLibsToJar(type: Zip, description: "create a jar archive of the native libs") {
+    destinationDir file("$projectDir/libs")
+    baseName "Native_Libs2"
+    extension "jar"
+    from fileTree(dir: "libs", include: "armeabi/*.so")
+    into "lib"
+}
+
+tasks.withType(JavaCompile) {
+    compileTask -> compileTask.dependsOn(nativeLibsToJar)
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.2.0'
+    compile files('libs/retrofit-2.0.0-beta2.jar')
+    compile 'com.android.support:recyclerview-v7:23.0.0'
+    compile files('libs/Baidu-SpeechRecognitionUI-SDK-Android-1.6.2.jar')
+    compile project(':library')
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+
+}

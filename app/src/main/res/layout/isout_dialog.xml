@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content"
+    android:background="#3F474A">
+    <TextView
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="退出后不会删除任何数据\n下次登录依然可以使用本帐号"/>
+    <RelativeLayout
+        android:padding="5dp"
+        android:background="#E76561"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_t1"
+        android:id="@+id/rl_out"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="退出程序"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_cancle"
+        android:padding="5dp"
+        android:background="#616161"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rl_out"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

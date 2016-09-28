@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+
+
+    <TextView
+        android:id="@+id/tev_sales"
+        android:drawablePadding="9dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textSize="14sp"
+        android:text="销量降序"
+        android:textColor="#000"
+        android:drawableLeft="@mipmap/isclick"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/divider"
+        />
+
+    <TextView
+        android:id="@+id/tev_sprice"
+        android:drawablePadding="9dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textSize="14sp"
+        android:text="价格升序"
+        android:textColor="#000"
+        android:drawableLeft="@mipmap/isclick"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/divider"
+        />
+
+    <TextView
+        android:id="@+id/tev_price"
+        android:drawablePadding="9dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textSize="14sp"
+        android:text="价格降序"
+        android:textColor="#000"
+        android:drawableLeft="@mipmap/isclick"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/divider"
+        />
+
+    <TextView
+        android:id="@+id/tev_common"
+        android:drawablePadding="9dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:text="评价降序"
+        android:drawableLeft="@mipmap/isclick"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/divider"
+        />
+
+
+    <TextView
+        android:id="@+id/tev_sj"
+        android:drawablePadding="9dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textSize="14sp"
+        android:text="上架降序"
+        android:textColor="#000"
+        android:drawableLeft="@mipmap/isclick"
+        android:layout_weight="1"/>
+
+
+
+</LinearLayout>
